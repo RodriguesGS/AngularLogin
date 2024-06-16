@@ -16,7 +16,7 @@
 
         .icon {
             background-color: $primary-color;
-            padding: 13px;
+            padding: 10px;
             border-radius: 0 8px 8px 0;
 
             img {
@@ -27,9 +27,20 @@
         input {
             border-radius: 8px 0 0 8px;
             background-color: $gray-secondary-bg;
-            border: none;
+            border: 2px solid transparent;
             padding: 12px 0 12px 20px;
             width: 100%;
+            transition: background-color .2s;
+            outline: none;
+
+            &:hover {
+                background-color: #e9e9e9;
+            }
+
+            &:focus {
+                background-color: #e9e9e9;
+                border: 2px solid $primary-color;
+            }
         }
     } 
 }

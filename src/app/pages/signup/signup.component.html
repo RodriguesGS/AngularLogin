@@ -1,7 +1,7 @@
 <app-default-login-layout
-    title = "Sign in and start today!"
-    primaryBtnText = "Signup Now"
-    secondaryBtnText = "Login Now"
+    title = "Registre-se e comece agora!"
+    primaryBtnText = "Registre-se"
+    secondaryBtnText = "Faça login"
     (submit)="submit()"
     (navigate)="navigate()"
     [disablePrimaryBtn]="!signupForm.valid"
@@ -11,17 +11,17 @@
             formControlName="name"
             inputName="name"
             type="text"
-            label="Your Name"
+            label="Seu nome"
             placeholder="Digite seu nome"
         >
-            <img src="/assets/svg/email-icon.svg"/>
+            <img src="/assets/svg/person-icon.svg"/>
        </app-primary-input>
        <app-primary-input
             formControlName="email"
             inputName="email"
             type="email"
             label="Email"
-            placeholder="login@gmail.com"
+            placeholder="contato@moveit.com"
         >
             <img src="/assets/svg/email-icon.svg"/>
        </app-primary-input>
@@ -29,15 +29,17 @@
             formControlName="password"
             inputName="password"
             type="password"
-            label="Your Password"
+            label="Sua senha"
+            placeholder="Senha"
         >
-            <img src="/assets/svg/password-icon.svg"/>
+            <img src="/assets/svg/passwordO-icon.svg"/>
        </app-primary-input>
        <app-primary-input
             formControlName="passwordConfirm"
             inputName="passwordConfirm"
             type="password"
-            label="Confirm Your Password"
+            label="Confirme sua senha"
+            placeholder="Digite sua senha novamente"
         >
             <img src="/assets/svg/password-icon.svg"/>
        </app-primary-input>
