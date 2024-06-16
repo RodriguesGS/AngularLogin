@@ -8,9 +8,16 @@ form {
     margin-bottom: 34px;
 
     span {
-        font-size: 14px;
+        font-size: .9rem;
+        font-weight: 500;
         text-decoration: underline;
         color: $secondary-color;
         text-align: end;
+        cursor: pointer;
+        transition: .1s;
+
+        &:hover {
+            color: $primary-color;
+        }
     }
 }
