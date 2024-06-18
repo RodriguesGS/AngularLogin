@@ -1,27 +1,33 @@
-# LoginAngular
+<p align="center">
+  <img src="./src/assets/git-image.png" alt="Project Image">
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+# Angular Login
 
-## Development server
+This is a project for a simple login and registration page inspired by <a href="https://github.com/Fernanda-Kipper" target="_blank"> Fernanda Kipper</a> video. In it, she shows how to create an app in Angular with authentication and integrate it with the backend.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Tech Stack
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+[![My Skills](https://skillicons.dev/icons?i=ts,angular)](https://skillicons.dev)
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. **Prerequisites**: `NodeJS, Git 1, Angular CLI`
+2. **Cloning**: `git clone https://github.com/RodriguesGS/AngularLogin.git`
+3. **Start Developing**: `cd project-name & npm run start`
 
-## Running unit tests
+## Application Routes
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Here you can list the main routes of your API, and what are their expected request bodies.
+​
+| route               | description                                          
+|----------------------|-----------------------------------------------------
+| <kbd>/signup</kbd>     | Page to sign up
+| <kbd>/login</kbd>     | Page to login
+| <kbd>/user</kbd>     | Protected page that only logged in users can access
 
-## Running end-to-end tests
+## Contribute
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. **Clone project**: `git clone https://github.com/RodriguesGS/AngularLogin.git`
+2. **Create feature/branch**: `git checkout -b feature/NAME`
